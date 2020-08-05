@@ -4,35 +4,35 @@ module.exports = function(app) {
     res.render("index", {
       portfolios: [
         {
-          name: "node-express-handlebars", 
+          name: "Travel bucket list", 
           github: "https://github.com/liza-p/node-express-handlebars",
           app_url: "https://travel-bucketlist.herokuapp.com/",
           img: "/img/travel.png"
         },
         {
-          name: "mysql-node-express",
+          name: "Employee tracker",
           github: "https://github.com/liza-p/mySQL-employee-tracker",
           img: "/img/employees.png"
         },
         {
-          name: "express-note-taker",
+          name: "Notepad",
           github: "https://github.com/liza-p/express-note-taker",
           app_url: "https://lizas-note-taker.herokuapp.com/",
           img: "/img/notetaker.png"
         },
         {
-          name: "server-side-apis",
+          name: "Weather  API's",
           github: "https://github.com/liza-p/Server-Side-APIs-Weather-Dashboard",
           app_url: "https://liza-p.github.io/Server-Side-APIs-Weather-Dashboard/",
           img: "/img/weather.png"
         },
         {
-          name: "readme-generator",
+          name: "Readme generator",
           github: "https://github.com/liza-p/README-generator",
           img: "/img/readme.png"
         },
         {
-          name: "node-inquirer",
+          name: "Team generator command line application",
           github: "https://github.com/liza-p/template-engine",
           img: "/img/team.png"
         },
@@ -49,13 +49,13 @@ module.exports = function(app) {
           img: "/img/dog.png"
         },
         {
-          name: "day-work-scheduler",
+          name: "Scheduler",
           github: " https://github.com/liza-p/day-work-scheduler",
           app_url: "https://liza-p.github.io/day-work-scheduler/",
           img: "/img/calendar.png"
         },
         {
-          name: "password-generator",
+          name: "Password generator",
           github: "https://github.com/liza-p/password-generator",
           app_url: "https://liza-p.github.io/password-generator/",
           img: "/img/password.png"
