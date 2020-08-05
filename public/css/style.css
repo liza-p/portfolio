@@ -1,6 +1,6 @@
 .greeting {
-  font-size: 65px;
-  color: #A9A9A9;
+  font-size: 80px;
+  color: #808080;
   text-align: center;
 }
 .intro {
@@ -14,4 +14,8 @@ body *{
 }
 .card{
   background-color: #FFF5EE;
+}
+
+#navbarNavDropdown {
+  font-size: 24px;
 }
