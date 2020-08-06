@@ -2,6 +2,7 @@
 module.exports = function(app) {
   app.get("/", function(req, res) {
     res.render("index", {
+      isPortfolioPage: true,
       portfolios: [
         {
           name: "Travel bucket list", 
@@ -63,4 +64,16 @@ module.exports = function(app) {
       ]
     });
   });
+  app.get("/about-me", function(req, res) {
+    res.render("aboutMe", {
+      isAboutPage: true,
+    });
+  });
+  app.get("/contact-me", function(req, res) {
+    res.render("contactMe", {
+      isContactPage: true,
+    });
+  });
+
+    
 };
